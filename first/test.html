@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="slk.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+</head>
+<body>
+<div id="main">
+
+	<form Name="frm" Action="test.html" Method="post">
+		<table align="center" style="margin-top:10px">
+			<tr>
+				<th colspan="6" height="25">INSERT Contact DETAILS</th>
+			</tr>		
+			<tr>
+				<input type="hidden" value="1" name="pagecount">
+				<input type="hidden" name="f_action">
+				<input type="hidden" name="lblPK" value="0">
+			</tr>
+			
+				<td colspan="6" align="center" style="border:none">
+					<input type="button" value="SAVE" onClick="save()">
+					<input type="button" value="DELETE" onClick="del_record()">
+					<input type="reset" value="RESET">
+				</td>
+			</tr>
+		</table>
+		</div>
+</body>
+</html>
